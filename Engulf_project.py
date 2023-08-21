@@ -2,7 +2,9 @@ import pandas as pd
 import numpy as np
 
 
-df = pd.read_csv(r"C:\Code X\Python\ADS_Final_Project_Engulfing\EURUSD_Candlestick_1_D_ASK_05.05.2003-19.10.2019.csv")#
+#df = pd.read_csv(r"C:\Code X\Python\ADS_Final_Project_Engulfing\EURUSD_Candlestick_1_D_ASK_05.05.2003-19.10.2019.csv")#
+url = "https://github.com/DenzelTC/ADS-Final-Project-Engulfing-pattern-analytics/blob/main/EURUSD_Candlestick_1_D_ASK_05.05.2003-19.10.2019.csv"
+df = pd.read_csv(url)#
 
 print(df.tail())
 
