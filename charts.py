@@ -113,7 +113,7 @@ fig1.update_layout(
 
 #Charts to show results from machine learning
 fig2 = make_subplots(rows=1, cols=2,
-                     subplot_titles=("Prediction PLots", "Actual Data Plots"))
+                     subplot_titles=("Prediction Plots", "Actual Data Plots"))
 
 fig2.add_trace(
     plt.Scatter(x=prediction_data['Predictions'].index.tolist(), y=prediction_data['Predictions']),
